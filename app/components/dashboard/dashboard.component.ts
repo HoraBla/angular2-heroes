@@ -5,7 +5,6 @@ import { Hero } from '../../shared/entities/hero';
 import { HeroService } from '../../shared/services/hero.service';
 
 @Component({
-  moduleId: module.id,
   selector: 'my-dashboard',
   templateUrl: 'app/components/dashboard/dashboard.component.html',
   styleUrls: [ 'app/components/dashboard/dashboard.component.css' ],
